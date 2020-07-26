@@ -7,3 +7,6 @@ gsettings set org.gnome.mutter workspaces-only-on-primary false
 apt install powerline
 
 git config --global push.default current
+
+# Add terraform autocompletion
+terraform -install-autocomplete
